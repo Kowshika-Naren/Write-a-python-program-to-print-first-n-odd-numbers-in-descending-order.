@@ -1,1 +1,17 @@
+n=int(input("Enter the limit:"))
+if n%2==0:
+    for i in range(n-1,0,-2):
+        print(i)
+else:
+    for i in range(n,0,-2):
+            print(i)
+
+OUTPUT:
+
+Enter the limit:10
+9
+7
+5
+3
+1
 # Write-a-python-program-to-print-first-n-odd-numbers-in-descending-order.
